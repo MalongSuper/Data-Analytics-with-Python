@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 import numpy as np
 from scipy.stats import norm
 
-df = pd.read_csv('datasets/SOCR-HeightWeight.csv').drop(columns='Index')
+df = pd.read_csv('_datasets/SOCR-HeightWeight.csv').drop(columns='Index')
 
 # Draw the histogram
 fig, axs = plt.subplots(1, 2, figsize=(12, 6))
