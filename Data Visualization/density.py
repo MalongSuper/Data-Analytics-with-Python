@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 
 # Create a DataFrame
-df = pd.read_csv('datasets/CompanyABCProfit.csv')
+df = pd.read_csv('_datasets/CompanyABCProfit.csv')
 
 # Set the style for the plot
 sns.set(style="whitegrid")
